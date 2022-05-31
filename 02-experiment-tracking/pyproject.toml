@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "MLFlow-intro"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mlflow = {version = "^1.26", extras = ["extras"]}
+scikit-learn = "^1.1.1"
+seaborn = "^0.11.2"
+hyperopt = "^0.2.7"
+xgboost = "^1.6.1"
+fastparquet = "^0.8.1"
+boto3 = "^1.23.8"
+ipykernel = "^6.13.0"
+protobuf = "^3.2.0"
+notebook = "^6.4.11"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

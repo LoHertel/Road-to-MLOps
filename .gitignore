@@ -1,1 +1,16 @@
+# mac
+.DS_Store
+
+# ide
+.vscode/
+.ipynb_checkpoints/
+
+# python
+__pycache__/
+.history
+
+# repo data
 data/
+mlartifacts/
+mlruns/
+mlflow.db
